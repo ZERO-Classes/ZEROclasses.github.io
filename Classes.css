@@ -1,0 +1,299 @@
+#body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+#logo-container{
+    display: flex;
+}
+#img-1{
+    width: 65px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+#navigation{
+    background-image: url("webpack1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    color: rgb(255, 255, 255);
+}
+#logo-container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+#list{
+    display: flex;
+}
+#list a{
+    color: white;
+    text-decoration: none;
+    height: 16px;
+    font-size: 30px;
+}
+#list a:hover{
+    color: #5f0d1d;
+}
+.ul-lists{
+    list-style-type: none;
+    font-family: 'Padauk', sans-serif;
+    cursor: pointer;
+    height: 36px;
+    margin-top: 90px;
+}
+#main-notice{
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+#main-notice h1{
+    font-size: 40px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Padauk', sans-serif;  
+}
+#p-1{
+    font-size: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Padauk', sans-serif;  
+}
+#btn{
+    background-color: #fe4066;
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: #ffff;
+    border-radius: 3px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Padauk', sans-serif;  
+    font-size: 16px;
+}
+#para{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Padauk', sans-serif;  
+    margin-top: 18vh;
+    font-size: 20px;
+}
+#container{
+    justify-content: left;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#container h1{
+    font-family: 'Padauk', sans-serif;  
+}
+#img-3{
+    height: 70vh;
+    width: 45%;
+}
+#img-4{
+    height: 60vh;
+    width: 50%;
+    margin-left: 40px;
+}
+#about{
+    margin-top: 50px;
+}
+#img-container{
+    display: flex;
+}
+#three{
+    justify-content: center;
+}
+#build{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Padauk', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#h3{
+    margin-top: 50px;
+}
+#fees{
+    margin-top: 50px;
+    font-size: 25px;
+}
+footer{
+    display: flex;
+    justify-content: left;
+    background-color:  #f8f6f6;
+    color: black;
+    margin-bottom: 0px;
+}
+.cool{
+    font-family: 'Padauk', sans-serif;  
+}
+.cool h2{
+    margin-left: 200px;
+}
+.cool ul li{
+    list-style-type: none;
+    margin-left: 160px;
+    color: rgb(124, 124, 124);
+}
+.cool ul li:hover{
+    color: #fe4066;
+    cursor: pointer;
+}
+#about-22{
+    margin-left: 200px;
+}
+#about-us{
+    display: block;
+}
+#contact-us{
+    margin-top: 60px;
+    display: block;
+}
+#contact-22{
+    margin-left: 200px;
+}
+#reserved{
+    color: rgb(143 141 141);
+    height: 55px;
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#reserved h2{
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+#education{
+    margin-top: 80px;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Padauk', sans-serif;  
+    background-color: #fe4066;
+    color: white;
+    height: 260px;
+}
+#btn-2{
+    background-color: white;
+    color: #fe4066;
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: white;
+    color: #fe4066;
+    cursor: pointer;
+}
+#btn-2:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #b32844;
+}
+#theme{
+    background-color: #681223;
+    color: white;
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 20px;
+}
+#theme:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #5f0d1d;
+}
+
+
+#hamburger{
+    position: absolute;
+    top: 0;
+    margin-right: 25px;
+    margin-top: 18px;
+    right: 0;
+}
+#hamburger:hover{
+    cursor: pointer;
+}
+
+
+.rod{
+    width: 50px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 6px;
+}
+
+#list{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 80vh;
+    top: 0;
+    right: 0;
+    text-align: left;
+    margin-left: 50px;
+    background-color: #fe4066;
+    border-radius: 10px;
+}
+
+.change #rod1{
+    transform: translateY(14px) rotate(45deg);
+}
+.change #rod2{
+    opacity: 0;
+}
+.change #rod3{
+    transform: translateY(-14px) rotate(-45deg);
+}
+
+
+#masterji{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 800px){
+    #list{
+        width: 90%;
+    }
+
+    #container{
+        margin-left: 20px;
+    }
+   .cool h2{
+        margin-left: 100px;
+    }
+    .cool ul li{
+        margin-left: 60px;
+    }
+    #about-22{
+        margin-left: 100px;
+    }
+    #contact-22{
+        margin-left: 100px;
+    }
+    #theme{
+        margin-left: 5px;
+    }
+    #img-3{
+        height: 200px;
+    }
+    #img-4{
+        height: 200px;
+    }
+}
